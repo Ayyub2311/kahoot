@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+background-color: lightgray;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quiz {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.skip {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    margin-left: auto;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.timer {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.main {
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+}
+b{
+font-size: 50px;
+text-align: center;
+}
+.answers {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+.btn {
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+display: block;
+    padding: 50px;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+transition: all o.3s;
+}
+
+.btn:hover{
+opacity: 0.8;
+}
+
+.btn2{
+    background-color: red;
+}
+.lost{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.again{
+    background-color: gray;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 300px;
+    text-align: center;
+}
+.win {
+    margin: 0 auto;
+}
+.won{
+    background-color: gray;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 100px;  
+}
+.medal {
+    display: block;
+    margin: 0 auto;
+}
+.place {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.place span{
+    font-size: 30px;
+}
+.text {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
